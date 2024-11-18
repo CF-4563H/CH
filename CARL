@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Feira das Profissões</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Feira das Profissões</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#programacao">Programação</a></li>
+                <li><a href="#palestrantes">Palestrantes</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre o Evento</h2>
+        <p>Bem-vindo à Feira das Profissões! Este evento é dedicado a ajudar os estudantes a escolherem suas futuras carreiras, com palestras, workshops e expositores de várias áreas profissionais.</p>
+    </section>
+
+    <section id="programacao">
+        <h2>Programação</h2>
+        <ul>
+            <li>10:00 - Abertura e Boas-vindas</li>
+            <li>11:00 - Palestra: Carreiras no setor de tecnologia</li>
+            <li>14:00 - Workshop: Como se preparar para o mercado de trabalho</li>
+            <li>16:00 - Palestra: O futuro das profissões da saúde</li>
+        </ul>
+    </section>
+
+    <section id="palestrantes">
+        <h2>Palestrantes</h2>
+        <div class="palestrante">
+            <img src="palestrante1.jpg" alt="Palestrante 1">
+            <p><strong>Maria Silva</strong> - Especialista em Tecnologia da Informação</p>
+        </div>
+        <div class="palestrante">
+            <img src="palestrante2.jpg" alt="Palestrante 2">
+            <p><strong>João Pereira</strong> - Médico e Professor Universitário</p>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Feira das Profissões - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
